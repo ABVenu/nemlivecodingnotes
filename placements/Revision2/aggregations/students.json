@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "s1",
+    "name": "Alice",
+    "state": "Karnataka",
+    "marks": [
+      { "courseId": "c1", "score": 88 },
+      { "courseId": "c2", "score": 92 }
+    ]
+  },
+  {
+    "_id": "s2",
+    "name": "Bob",
+    "state": "Maharashtra",
+    "marks": [
+      { "courseId": "c1", "score": 75 },
+      { "courseId": "c3", "score": 80 }
+    ]
+  },
+  {
+    "_id": "s3",
+    "name": "Charlie",
+    "state": "Karnataka",
+    "marks": [
+      { "courseId": "c2", "score": 85 },
+      { "courseId": "c3", "score": 78 }
+    ]
+  },
+  {
+    "_id": "s4",
+    "name": "David",
+    "state": "Delhi",
+    "marks": [
+      { "courseId": "c1", "score": 90 },
+      { "courseId": "c2", "score": 87 }
+    ]
+  },
+  {
+    "_id": "s5",
+    "name": "Eva",
+    "state": "Maharashtra",
+    "marks": [
+      { "courseId": "c3", "score": 82 },
+      { "courseId": "c2", "score": 79 }
+    ]
+  }
+]
