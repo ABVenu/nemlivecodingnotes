@@ -1,0 +1,5 @@
+[
+  { "_id": "c1", "name": "Mathematics", "credits": 4 },
+  { "_id": "c2", "name": "Physics", "credits": 3 },
+  { "_id": "c3", "name": "Chemistry", "credits": 3 }
+]
