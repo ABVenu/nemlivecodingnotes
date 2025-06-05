@@ -1,0 +1,15 @@
+{
+  "todos": [
+    { "id": 2, "title": "Learn Express", "status": false },
+    { "id": 3, "title": "Learn Postman", "status": false },
+    { "title": "This is First Todo Added", "status": false, "id": 4 },
+    { "title": "This is Second Todo Added", "status": true, "id": 5 }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "name": "How I learnt BE",
+      "description": "JS is essential for learning NEM"
+    }
+  ]
+}
