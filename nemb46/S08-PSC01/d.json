@@ -1,0 +1,10 @@
+{
+    "receieverName": "Alice",
+  "houseNo": "123/456",
+  "street": "Anand Nagar",
+  "tehsil": "Anand",
+  "district": "Anand",
+  "state":"Gujrat",
+  "pincode": "123456",
+  "mobileNumber": "0987654321"
+}
