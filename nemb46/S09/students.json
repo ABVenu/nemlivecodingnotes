@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Anjali Sharma",
+    "gender": "Female",
+    "age": 19,
+    "state": "Delhi",
+    "marks": 87,
+    "subject": "Math",
+    "passed": true
+  },
+  {
+    "name": "Rohit Verma",
+    "gender": "Male",
+    "age": 21,
+    "state": "Maharashtra",
+    "marks": 76,
+    "subject": "Science",
+    "passed": true
+  },
+  {
+    "name": "Sneha Das",
+    "gender": "Female",
+    "age": 20,
+    "state": "West Bengal",
+    "marks": 93,
+    "subject": "English",
+    "passed": true
+  },
+  {
+    "name": "Amit Singh",
+    "gender": "Male",
+    "age": 22,
+    "state": "Uttar Pradesh",
+    "marks": 55,
+    "subject": "History",
+    "passed": false
+  },
+  {
+    "name": "Kavya Nair",
+    "gender": "Female",
+    "age": 18,
+    "state": "Kerala",
+    "marks": 89,
+    "subject": "Math",
+    "passed": true
+  },
+  {
+    "name": "Manish Yadav",
+    "gender": "Male",
+    "age": 23,
+    "state": "Bihar",
+    "marks": 64,
+    "subject": "Geography",
+    "passed": false
+  },
+  {
+    "name": "Nikita Rao",
+    "gender": "Female",
+    "age": 20,
+    "state": "Telangana",
+    "marks": 72,
+    "subject": "Science",
+    "passed": true
+  },
+  {
+    "name": "Siddharth Patil",
+    "gender": "Male",
+    "age": 19,
+    "state": "Maharashtra",
+    "marks": 81,
+    "subject": "English",
+    "passed": true
+  },
+  {
+    "name": "Pooja Mehta",
+    "gender": "Female",
+    "age": 21,
+    "state": "Rajasthan",
+    "marks": 60,
+    "subject": "History",
+    "passed": false
+  },
+  {
+    "name": "Arjun Reddy",
+    "gender": "Male",
+    "age": 22,
+    "state": "Andhra Pradesh",
+    "marks": 95,
+    "subject": "Math",
+    "passed": true
+  }
+]
