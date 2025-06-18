@@ -1,0 +1,17 @@
+[
+  {
+    "_id": 101,
+    "title": "Data Structures",
+    "credits": 3
+  },
+  {
+    "_id": 102,
+    "title": "Algorithms",
+    "credits": 4
+  },
+  {
+    "_id": 103,
+    "title": "Circuits",
+    "credits": 3
+  }
+]
