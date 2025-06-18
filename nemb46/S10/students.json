@@ -1,0 +1,23 @@
+[
+  {
+    "_id": 1,
+    "name": "Alice",
+    "age": 21,
+    "department": "CS",
+    "courses": [101, 102]
+  },
+  {
+    "_id": 2,
+    "name": "Bob",
+    "age": 23,
+    "department": "EE",
+    "courses": [102, 103]
+  },
+  {
+    "_id": 3,
+    "name": "Charlie",
+    "age": 22,
+    "department": "ME",
+    "courses": [101]
+  }
+]
