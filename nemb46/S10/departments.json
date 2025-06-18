@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "CS",
+    "name": "Computer Science",
+    "facultyCount": 30
+  },
+  {
+    "_id": "EE",
+    "name": "Electrical Engineering",
+    "facultyCount": 25
+  },
+  {
+    "_id": "ME",
+    "name": "Mechanical Engineering",
+    "facultyCount": 20
+  }
+]
