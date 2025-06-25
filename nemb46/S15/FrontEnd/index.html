@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 id="message">This is chat application using websockets</h3>
+    <input id="sendMsg" type="text" placeholder="Enter Message" />
+    <button id="sendBtn">Send Message</button>
+  </body>
+  <script>
+    const ws = new WebSocket("ws://localhost:8080");
+    // Connection opened
+    ws.onopen = () => {
+      console.log("Connected to WebSocket server");
+      // ws.send("Hello, Server!");
+    };
+    let sendBtn = document.getElementById("sendBtn");
+    sendBtn.addEventListener("click", () => {
+      let sendMsg = document.getElementById("sendMsg").value;
+      console.log(sendMsg);
+      // trigger the event called as send
+      ws.send(sendMsg);
+    });
+
+    // listen to messages sent by the server
+    // Listen for messages
+    ws.onmessage = (event) => {
+      // this conosle is in the browser
+      console.log(`Message from server: ${event.data}`);
+      document.getElementById("message").textContent = event.data;
+    };
+  </script>
+</html>
