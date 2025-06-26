@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sendMessageDiv{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="message"> Welcome To Chat Application</h3>
+    <div id="registrationDiv">
+        <input type="text" name="" id="userName" placeholder="Enter Name">
+        <button id="registerBtn">Register</button>
+    </div>
+    <div id="sendMessageDiv">
+        <input id="enterMessage" type="text" placeholder="Enter Message">
+        <button id="sendMessage">Send Message</button>
+    </div>
+    <div id="chatMessagesDiv"></div>
+</body>
+<script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+<script>
+    const socket = io("http://localhost:3000");
+    //socket is the connection established to my backend server
+    let registerBtn = document.getElementById("registerBtn");
+    registerBtn.addEventListener("click", ()=>{
+        let userName = document.getElementById("userName").value;
+        console.log(userName)
+        // trigger an event to socket whose name is register 
+        socket.emit("register", userName)
+        document.getElementById("registrationDiv").style.display = "none";
+        document.getElementById("message").textContent = `Hi, ${userName}`;
+        document.getElementById("sendMessageDiv").style.display = "block"
+
+    })
+
+
+    let sendMessage = document.getElementById("sendMessage");
+    sendMessage.addEventListener("click", ()=>{
+        let messageToBeSent = document.getElementById("enterMessage").value;
+        /// trigger the event, sendMessage and send the send the message to the server
+        /// so server will be listening to the event called as sendMessage
+        socket.emit("sendMessage", messageToBeSent)
+    })
+
+    // listen to chatHistory event 
+    socket.on("chatHistory", (data)=>{
+        console.log(data)
+        appendChatsToUI(data)
+    })
+    function appendChatsToUI(chatArray){
+        let container = document.getElementById("chatMessagesDiv");
+        container.innerHTML = "";
+        for(chat of chatArray){
+            let chatDiv = document.createElement("div");
+            chatDiv.textContent = `${chat.from}:${chat.message}`
+            container.appendChild(chatDiv)
+        }
+    }
+</script>
+</html>
