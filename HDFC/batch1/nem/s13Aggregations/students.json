@@ -1,0 +1,142 @@
+[
+  {
+    "_id": 1,
+    "name": "Alice Johnson",
+    "age": 20,
+    "gender": "female",
+    "state": "California",
+    "grades": [
+      { "subject": "Math", "score": 85 },
+      { "subject": "English", "score": 78 },
+      { "subject": "Science", "score": 92 }
+    ],
+    "class": "A",
+    "isActive": true
+  },
+  {
+    "_id": 2,
+    "name": "Bob Smith",
+    "age": 22,
+    "gender": "male",
+    "state": "Texas",
+    "grades": [
+      { "subject": "Math", "score": 95 },
+      { "subject": "English", "score": 88 },
+      { "subject": "Science", "score": 76 }
+    ],
+    "class": "B",
+    "isActive": true
+  },
+  {
+    "_id": 3,
+    "name": "Carol Lee",
+    "age": 21,
+    "gender": "female",
+    "state": "California",
+    "grades": [
+      { "subject": "Math", "score": 65 },
+      { "subject": "English", "score": 72 },
+      { "subject": "Science", "score": 70 }
+    ],
+    "class": "A",
+    "isActive": false
+  },
+  {
+    "_id": 4,
+    "name": "David Kim",
+    "age": 23,
+    "gender": "male",
+    "state": "Texas",
+    "grades": [
+      { "subject": "Math", "score": 88 },
+      { "subject": "English", "score": 90 },
+      { "subject": "Science", "score": 85 }
+    ],
+    "class": "B",
+    "isActive": true
+  },
+  {
+    "_id": 5,
+    "name": "Eva Green",
+    "age": 20,
+    "gender": "female",
+    "state": "Florida",
+    "grades": [
+      { "subject": "Math", "score": 78 },
+      { "subject": "English", "score": 82 },
+      { "subject": "Science", "score": 88 }
+    ],
+    "class": "C",
+    "isActive": true
+  },
+  {
+    "_id": 6,
+    "name": "Frank Turner",
+    "age": 22,
+    "gender": "male",
+    "state": "Florida",
+    "grades": [
+      { "subject": "Math", "score": 55 },
+      { "subject": "English", "score": 60 },
+      { "subject": "Science", "score": 58 }
+    ],
+    "class": "C",
+    "isActive": false
+  },
+  {
+    "_id": 7,
+    "name": "Grace Hall",
+    "age": 21,
+    "gender": "female",
+    "state": "California",
+    "grades": [
+      { "subject": "Math", "score": 92 },
+      { "subject": "English", "score": 95 },
+      { "subject": "Science", "score": 90 }
+    ],
+    "class": "A",
+    "isActive": true
+  },
+  {
+    "_id": 8,
+    "name": "Henry Adams",
+    "age": 23,
+    "gender": "male",
+    "state": "Texas",
+    "grades": [
+      { "subject": "Math", "score": 80 },
+      { "subject": "English", "score": 75 },
+      { "subject": "Science", "score": 82 }
+    ],
+    "class": "B",
+    "isActive": true
+  },
+  {
+    "_id": 9,
+    "name": "Isabella White",
+    "age": 20,
+    "gender": "female",
+    "state": "New York",
+    "grades": [
+      { "subject": "Math", "score": 90 },
+      { "subject": "English", "score": 85 },
+      { "subject": "Science", "score": 88 }
+    ],
+    "class": "C",
+    "isActive": true
+  },
+  {
+    "_id": 10,
+    "name": "Jack Black",
+    "age": 22,
+    "gender": "male",
+    "state": "New York",
+    "grades": [
+      { "subject": "Math", "score": 70 },
+      { "subject": "English", "score": 75 },
+      { "subject": "Science", "score": 72 }
+    ],
+    "class": "A",
+    "isActive": true
+  }
+]
