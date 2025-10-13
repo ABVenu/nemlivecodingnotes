@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 9,
+    "language": "English"
+  },
+  {
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "rating": 8.8,
+    "language": "English"
+  },
+  {
+    "title": "3 Idiots",
+    "genre": "Comedy",
+    "year": 2009,
+    "rating": 8.4,
+    "language": "Hindi"
+  },
+  {
+    "title": "The Avengers",
+    "genre": "Action",
+    "year": 2012,
+    "rating": 8,
+    "language": "English"
+  },
+  {
+    "title": "Parasite",
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 8.6,
+    "language": "Korean"
+  },
+  {
+    "title": "Dangal",
+    "genre": "Biography",
+    "year": 2016,
+    "rating": 8.5,
+    "language": "Hindi"
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 8.6,
+    "language": "English"
+  },
+  {
+    "title": "The Kashmir Files",
+    "genre": "Drama",
+    "year": 2022,
+    "rating": 7.3,
+    "language": "Hindi"
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime",
+    "year": 1972,
+    "rating": 9.2,
+    "language": "English"
+  },
+  {
+    "title": "RRR",
+    "genre": "Action",
+    "year": 2022,
+    "rating": 8,
+    "language": "Telugu"
+  }
+]
