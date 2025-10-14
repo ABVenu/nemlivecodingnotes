@@ -34,3 +34,12 @@ db.students.aggregate([{$match:{state:"Texas"}},
                                    remarks:{$concat:["The student of name ", "$_id", " avg marks is ", {$toString:"$avgMarks"}]}
                                  }}])
 ```
+#### Find the course details student wise
+```
+db.students.aggregate([{$lookup:{
+  from:"courses",
+  localField:"courses.courseId",
+  foreignField:"credits",
+  as:"courseDetails"
+}}])
+```
