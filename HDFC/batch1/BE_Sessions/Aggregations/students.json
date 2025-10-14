@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "name": "Alice Johnson",
+    "age": 20,
+    "email": "alice.johnson@example.com",
+    "state": "California",
+    "gender": "Female",
+    "courses": [
+      { "courseId": 1, "marks": 85 },
+      { "courseId": 2, "marks": 90 }
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Bob Smith",
+    "age": 22,
+    "email": "bob.smith@example.com",
+    "state": "Texas",
+    "gender": "Male",
+    "courses": [
+      { "courseId": 1, "marks": 78 },
+      { "courseId": 3, "marks": 88 }
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Charlie Brown",
+    "age": 21,
+    "email": "charlie.brown@example.com",
+    "state": "New York",
+    "gender": "Male",
+    "courses": [
+      { "courseId": 2, "marks": 92 },
+      { "courseId": 3, "marks": 80 }
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Diana Prince",
+    "age": 23,
+    "email": "diana.prince@example.com",
+    "state": "California",
+    "gender": "Female",
+    "courses": [
+      { "courseId": 1, "marks": 95 },
+      { "courseId": 4, "marks": 89 }
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Ethan Hunt",
+    "age": 20,
+    "email": "ethan.hunt@example.com",
+    "state": "Texas",
+    "gender": "Male",
+    "courses": [
+      { "courseId": 3, "marks": 76 },
+      { "courseId": 4, "marks": 85 }
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "Fiona Gallagher",
+    "age": 22,
+    "email": "fiona.gallagher@example.com",
+    "state": "Illinois",
+    "gender": "Female",
+    "courses": [
+      { "courseId": 2, "marks": 88 },
+      { "courseId": 5, "marks": 91 }
+    ]
+  },
+  {
+    "_id": 7,
+    "name": "George Martin",
+    "age": 21,
+    "email": "george.martin@example.com",
+    "state": "New York",
+    "gender": "Male",
+    "courses": [
+      { "courseId": 1, "marks": 82 },
+      { "courseId": 5, "marks": 79 }
+    ]
+  },
+  {
+    "_id": 8,
+    "name": "Hannah Lee",
+    "age": 23,
+    "email": "hannah.lee@example.com",
+    "state": "California",
+    "gender": "Female",
+    "courses": [
+      { "courseId": 3, "marks": 91 },
+      { "courseId": 4, "marks": 87 }
+    ]
+  },
+  {
+    "_id": 9,
+    "name": "Ian Somerhalder",
+    "age": 20,
+    "email": "ian.somerhalder@example.com",
+    "state": "Texas",
+    "gender": "Male",
+    "courses": [
+      { "courseId": 2, "marks": 84 },
+      { "courseId": 5, "marks": 90 }
+    ]
+  },
+  {
+    "_id": 10,
+    "name": "Julia Roberts",
+    "age": 22,
+    "email": "julia.roberts@example.com",
+    "state": "Illinois",
+    "gender": "Female",
+    "courses": [
+      { "courseId": 1, "marks": 89 },
+      { "courseId": 4, "marks": 92 }
+    ]
+  }
+]
