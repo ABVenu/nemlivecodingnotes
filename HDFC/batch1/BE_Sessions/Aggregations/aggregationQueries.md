@@ -43,3 +43,19 @@ db.students.aggregate([{$lookup:{
   as:"courseDetails"
 }}])
 ```
+
+### Find total credits each student is enrolled in
+```
+db.students.aggregate([{$unwind:"$courses"}, 
+                       {$lookup:{
+                         from:"courses", 
+                         localField:"courses.courseId",
+                         foreignField:"_id",
+                         as:"courseData"
+                       }},
+                       {$unwind:"$courseData"}, 
+                       {$group:{
+                         _id:"$name",
+                         totalCredits:{$sum:"$courseData.credits"}
+                       }}])
+```
