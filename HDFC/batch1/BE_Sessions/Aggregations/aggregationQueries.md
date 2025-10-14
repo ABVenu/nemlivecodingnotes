@@ -9,3 +9,7 @@ db.students.aggregate([{$group:{_id:"$gender",
                                 avgAge:{$avg:"$age"}
                        }}])
 ```
+```
+db.students.aggregate([{$unwind:"$courses"},
+                       {$group:{_id:"$name", avgMarks:{$avg:"$courses.marks"}}}])
+```
