@@ -1,0 +1,6 @@
+[
+  { "item": "apple", "quantity": 5 },
+  { "item": "banana", "quantity": 10 },
+  { "item": "apple", "quantity": 8 },
+  { "item": "orange", "quantity": 15 }
+]
