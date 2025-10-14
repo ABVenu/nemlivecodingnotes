@@ -13,3 +13,8 @@ db.students.aggregate([{$group:{_id:"$gender",
 db.students.aggregate([{$unwind:"$courses"},
                        {$group:{_id:"$name", avgMarks:{$avg:"$courses.marks"}}}])
 ```
+```
+db.students.aggregate([{$match:{state:"Texas"}},
+                       {$unwind:"$courses"},
+                       {$group:{_id:"$name", avgMarks:{$avg:"$courses.marks"}}}]
+```
