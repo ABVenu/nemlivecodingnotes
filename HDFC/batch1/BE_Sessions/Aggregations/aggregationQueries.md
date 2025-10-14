@@ -59,3 +59,21 @@ db.students.aggregate([{$unwind:"$courses"},
                          totalCredits:{$sum:"$courseData.credits"}
                        }}])
 ```
+
+### Categorize students into grade buckets based on marks
+```
+db.students.aggregate([
+  { $unwind: "$courses" },
+  {
+    $bucket: {
+      groupBy: "$courses.marks",
+      boundaries: [0, 60, 70, 80, 90, 100],
+      default: "Other",
+      output: {
+        count: { $sum: 1 },
+        students: { $push: "$name" }
+      }
+    }
+  }
+])
+```
