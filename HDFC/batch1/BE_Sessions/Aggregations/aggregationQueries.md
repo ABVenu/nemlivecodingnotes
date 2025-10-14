@@ -23,3 +23,14 @@ db.students.aggregate([{$match:{state:"Texas"}},
                        {$unwind:"$courses"},
                        {$group:{_id:"$name", avgMarks:{$avg:"$courses.marks"}}}]
 ```
+#### Project the remarks for the above, also rename the _id to studentName
+```
+db.students.aggregate([{$match:{state:"Texas"}},
+                       {$unwind:"$courses"},
+                       {$group:{_id:"$name", avgMarks:{$avg:"$courses.marks"}}},
+                       {$project:{_id:0,
+                                  studentName:"$_id", 
+                                  avgMarks:1, 
+                                   remarks:{$concat:["The student of name ", "$_id", " avg marks is ", {$toString:"$avgMarks"}]}
+                                 }}])
+```
